@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'h5#)2pxt#&404zsmhi6$(_zls(ir$(p0e4t+5t75ln@p1-2htc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['smart-quizr.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
